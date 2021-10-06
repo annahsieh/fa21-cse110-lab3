@@ -1,0 +1,51 @@
+.lists { /* class */
+
+}
+
+#discuss { /* id */
+
+}
+
+* { /* universal */
+
+}
+
+p { /* element */
+
+}
+
+a[href="#notes"], a[href="#form"] { /* attributes */
+
+}
+
+button:active { /* pseudo-class */
+
+}
+
+button:hover {
+
+}
+
+h1, h2 { /* selector list */
+
+}
+
+ul li { /* descendant combinator */
+
+}
+
+ol li { /* child combinator */
+
+}
+
+section ~ p { /* general sibling combinator */
+
+}
+
+summary + p { /* adjacent sibling combinator */
+
+}
+
+#attendance.lists { /*combining two selectors
+
+}
