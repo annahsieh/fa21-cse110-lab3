@@ -2,32 +2,34 @@
 
 }
 
-#discuss { /* id */
-
-}
-
 * { /* universal */
-
 }
 
 p { /* element */
-
+    display: block;
+    font-size: 18px;
 }
 
-a[href="#notes"], a[href="#form"] { /* attributes */
-
+@media screen and (max-width: 500px) {
+    a[href="#notes"], a[href="#form"] { /* attributes */
+        display: inline
+    }
 }
 
-button:active { /* pseudo-class */
 
+form:active { /* pseudo-class */
+    color:hsl(281, 35%, 49%);
 }
 
 button:hover {
-
+    color:hsl(195, 44%, 56%);
 }
 
-h1, h2 { /* selector list */
-
+h1, h2, h3 { /* selector list */
+    color:seagreen;
+    text-decoration: underline dotted #b3dbb6;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
 ul li { /* descendant combinator */
@@ -35,17 +37,62 @@ ul li { /* descendant combinator */
 }
 
 ol li { /* child combinator */
-
+    font-size: 1.2em;
 }
 
 section ~ p { /* general sibling combinator */
-
+    position: static;
 }
 
 summary + p { /* adjacent sibling combinator */
-
+    font-size: 2vw;
 }
 
-#attendance.lists { /*combining two selectors
-
+#attendance.lists { /*combining two selectors */
+    font-size: 1.5rem;
 }
+
+
+
+fieldset {
+    width: 15cm;
+    height: 450px;
+    max-width: 20in;
+    max-height: 10in;
+}
+
+img[src="https://www.pngkit.com/png/full/51-518083_clipart-baby-fish-cartoon.png"]{
+    position: sticky;
+    top: 200px;
+}
+
+#note {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.others {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 50px 50px;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+#previous { /* id */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#discuss {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#concerns {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
