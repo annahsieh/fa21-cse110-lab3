@@ -1,8 +1,14 @@
 .lists { /* class */
-
+    border-width: 3px;
+    border-color:skyblue;
+    border-style: dashed;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 50px;
 }
 
 * { /* universal */
+    font-style: initial;
 }
 
 p { /* element */
@@ -12,10 +18,9 @@ p { /* element */
 
 @media screen and (max-width: 500px) {
     a[href="#notes"], a[href="#form"] { /* attributes */
-        display: inline
+        display: inline;
     }
 }
-
 
 form:active { /* pseudo-class */
     color:hsl(281, 35%, 49%);
@@ -30,10 +35,12 @@ h1, h2, h3 { /* selector list */
     text-decoration: underline dotted #b3dbb6;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
+    margin: 20px 30px;
+    padding-bottom: 15px;
 }
 
 ul li { /* descendant combinator */
-
+    padding: 15px;
 }
 
 ol li { /* child combinator */
@@ -52,13 +59,12 @@ summary + p { /* adjacent sibling combinator */
     font-size: 1.5rem;
 }
 
-
-
 fieldset {
     width: 15cm;
     height: 450px;
     max-width: 20in;
     max-height: 10in;
+    margin: auto;
 }
 
 img[src="https://www.pngkit.com/png/full/51-518083_clipart-baby-fish-cartoon.png"]{
