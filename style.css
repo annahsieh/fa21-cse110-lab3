@@ -4,7 +4,10 @@
     border-style: dashed;
     border-radius: 20px;
     margin-bottom: 10px;
-    padding: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px 50px 50px 50px;
 }
 
 * { /* universal */
@@ -37,6 +40,9 @@ h1, h2, h3 { /* selector list */
     font-family: 'Abril Fatface', cursive;
     margin: 20px 30px;
     padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 ul li { /* descendant combinator */
@@ -65,6 +71,7 @@ fieldset {
     max-width: 20in;
     max-height: 10in;
     margin: auto;
+    border: 5px solid skyblue;
 }
 
 img[src="https://www.pngkit.com/png/full/51-518083_clipart-baby-fish-cartoon.png"]{
