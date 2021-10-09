@@ -5,28 +5,28 @@ General Notes:
 
 
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
     
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
 
 Member:
-    Notes:
+Notes:
 
 Member:
     Notes:
